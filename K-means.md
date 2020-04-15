@@ -154,7 +154,7 @@ if __name__ == '__main__':
 
 #### 实验效果与分析
 
-![image](https://github.com/Teren-Liu/Machine-Learning/blob/master/images/kmeans.png)
+![image](https://github.com/Teren-Liu/Machine-Learning/blob/master/image/kmeans.png)
 
 K-means算法描述容易，实现简单，快速，但存在以下不足：
 1. k需要提前给定
@@ -248,7 +248,7 @@ if __name__ == '__main__':
 
 #### 实验效果与分析
 
-![image](https://github.com/Teren-Liu/Machine-Learning/blob/master/images/bikmeans.png)
+![image](https://github.com/Teren-Liu/Machine-Learning/blob/master/image/bikmeans.png)
 
 可以发现，与K-means相比，二分K-means聚类效果更好，算法不再受初始化节点的影响，但算法花销也更大，对于K值以及m值需要多次调整才可获得更好的聚类效果。
 
