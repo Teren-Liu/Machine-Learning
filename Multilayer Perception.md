@@ -21,14 +21,14 @@
 问题的根源在于全连接层只是对数据做仿射变换（affine transformation），而多个仿射变换的叠加仍然是一个仿射变换。解决问题的一个方法是引入非线性变换，例如对隐藏变量使用按元素运算的非线性函数进行变换，然后再作为下一个全连接层的输入。这个非线性函数被称为激活函数（activation function）。下面介绍常用的三种激活函数
 
 ##### Relu
-<center><div align=center><img src ="https://github.com/Teren-Liu/Machine-Learning/blob/master/image/MLP-f2.png"/></div></center>
-<center><div align=center><img height=100,width=200, src ="https://github.com/Teren-Liu/Machine-Learning/blob/master/image/MLP-2.png"/></div></center>
+<center><div align=center><img height=100,width=200, src ="https://github.com/Teren-Liu/Machine-Learning/blob/master/image/MLP-f2.png"/></div></center>
+<center><div align=center><img height=150,width=250, src ="https://github.com/Teren-Liu/Machine-Learning/blob/master/image/MLP-2.png"/></div></center>
 ##### sigmoid
 <center><div align=center><img height=100,width=200, src ="https://github.com/Teren-Liu/Machine-Learning/blob/master/image/MLP-f3.png"/></div></center>
-<center><div align=center><img src ="https://github.com/Teren-Liu/Machine-Learning/blob/master/image/MLP-3.png"/></div></center>
+<center><div align=center><img height=150,width=250, src ="https://github.com/Teren-Liu/Machine-Learning/blob/master/image/MLP-3.png"/></div></center>
 ##### tanh
-<center><div align=center><img src ="https://github.com/Teren-Liu/Machine-Learning/blob/master/image/MLP-f4.png"/></div></center>
-<center><div align=center><img height=100,width=200, src ="https://github.com/Teren-Liu/Machine-Learning/blob/master/image/MLP-4.png"/></div></center>
+<center><div align=center><img height=100,width=200, src ="https://github.com/Teren-Liu/Machine-Learning/blob/master/image/MLP-f4.png"/></div></center>
+<center><div align=center><img height=150,width=250, src ="https://github.com/Teren-Liu/Machine-Learning/blob/master/image/MLP-4.png"/></div></center>
 
 
 ### 非线性神经网络
